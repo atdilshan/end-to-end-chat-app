@@ -1,0 +1,43 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  color: white;
+  height: 60%;
+  justify-content: space-between;
+}
+
+.activeContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50%;
+}
+
+.activeItem {
+  display: flex;
+  align-items: center;
+}
+
+.activeContainer i {
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.textContainer h1 {
+  margin-bottom: 0px;
+}
+
+.textContainer h1 span {
+  color: #2979ff;
+}
+
+.textContainer h2 a {
+  text-decoration: none;
+  color: #2979ff;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .textContainer {
+    display: none;
+  }
+}
